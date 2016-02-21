@@ -16,18 +16,7 @@ function enableSmoothScolling() {
   });
 };
 
-function loadTemplateById(contentToLoadTo, sourceTemplate){
-  var link = document.querySelector(sourceTemplate);
-    // Clone the <template> in the import.
-    var template = link.import.querySelector('template');
-    var clone = document.importNode(template.content, true);
-
-    document.querySelector(contentToLoadTo).appendChild(clone);
-}
-
 $(document).ready(function() {
   enableSmoothScolling();
-  loadTemplateById("#nav", "#nav-template");
-
 })
 
