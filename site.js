@@ -1,6 +1,7 @@
 
 var smoothScrollingTargetElement = 'a[href*="#"]:not([href="#"])';
 var headerHeight = 100;
+var mobileNavClassChangeName = "movile-nav-change"
 
 function enableSmoothScolling() {
   $(smoothScrollingTargetElement).click(function() {
@@ -17,6 +18,10 @@ function enableSmoothScolling() {
   });
 };
 
+
+function openMobileNavbar(x) {
+    x.classList.toggle(mobileNavClassChangeName);
+}
 $(document).ready(function() {
   enableSmoothScolling();
 })
