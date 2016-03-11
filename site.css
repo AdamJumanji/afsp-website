@@ -21,7 +21,7 @@ a:hover {
 header {
 	background: #fff;
 	width: 100%;
-	height: 100px;
+	height: 75px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -82,7 +82,6 @@ h2 {
 	color: #c50000;
 	margin-bottom: 1.5%;
 	margin-top: 2%;
-
 	font-size:40px;
 }
 
@@ -144,7 +143,7 @@ p {
 .motto{
 	font-size:16.5px;
 	padding-left: 10px;
-	margin-top: 75px;
+	margin-top: 50px;
 	line-height: 0;
 	display: inline-block
 }
@@ -153,24 +152,26 @@ p {
 	margin-bottom:5%;
 	width: 100%; 
 	height: 100%;
-	margin-top: 135px;
+	margin-top: 130px;
 }
 .banner img{
 	width: 30%;
 	margin:0 auto 0 auto;
 	display: block;
-	margin-bottom: 3.5%;
+	margin-bottom: 2.5%;
 }
 
 .banner h1{
+	line-height: 1em;
 	text-transform: uppercase;	
 	color: #2F2F2F;
 	font-size: 60px;
 	text-align: center;
-	margin-bottom:3.5%;
+	margin-bottom:2.5%;
 }
 
 .banner p{
+	line-height:1.7em;
 	color:#4D4949;
 	font-size:25px;
 	width: 85%;
@@ -180,9 +181,10 @@ p {
 }
 
 .logo{
+	margin-left: 5px;
 	margin-top:5px;
 	float: left;
-	width: 100px;
+	width: 75px;
 	display: block;
 }
 
@@ -236,9 +238,11 @@ p {
 		text-align: center;
 	}
 
-
 	.contact h3{
 		margin-top: 2%;
+		margin-left: 10%;
+		text-align: left;
+
 	}
 	.contact{
 		border: none;
@@ -249,9 +253,6 @@ p {
 		list-style: none;
 		margin: 0 0 0 15%
 
-	}
-
-	.contact ul li{
 	}
 
 	.contact ul li img{
@@ -277,7 +278,8 @@ p {
 
 	.form h3{
 		margin-bottom: 2%;
-		text-align: center;
+		text-align: none;
+		margin-left: 10%;
 	}
 	.input {
 		font-size:18px;
@@ -369,9 +371,13 @@ p {
 	/*MEDIA QUERY*/
 	@media only screen and (max-width : 1200px) {
 
+		nav{
+			margin-right: 10px;
+		}
 		nav ul{
 			display: none;
 		}
+
 		.header-items{
 			width: 100%;
 		}
@@ -390,7 +396,7 @@ p {
 			display: inline-block;
 			background-color: #fff;
 			cursor: pointer;
-			padding: 20px 20px 19px 20px;
+			padding: 7px 20px 4px 20px;
 
 		}
 
@@ -425,11 +431,78 @@ p {
 
 		}
 
+		.form{
+			margin-top: 5%;
+		}
+
 
 
 	}
 
-	@media only screen and (max-width : 920px) {
-	
+	@media only screen and (max-width : 900px) {
+		body { 
+			font-size: 16px;
+		}
+		.motto{
+			font-size: 14.5px;
+		}
+
+		.content{
+			width: auto;
+		}
+
+		.banner .ribbon{
+			width: 70%;
+		}
+
+
+		.banner h1{
+			font-size: 35px;
+		}
+
+		.banner p{
+			font-size: 20px;
+		}
+
+
+	}
+
+	@media only screen and (max-width: 425px){
+		h2 {
+			color: #c50000;
+			margin-bottom: 3%;
+			margin-top: 3%;
+			font-size:35px;
+		}
+
+		h3
+		{	font-size:22.5px;
+			margin-bottom: 2%;
+
+		}
+
+		.section-description{
+			margin-bottom: 4%;
+		}
+		
+		.motto{
+			display:none;
+		}
+
+
+		.banner h1{
+			font-size: 25px;
+		}
+
+		.banner p{
+			font-size: 18px;
+		}
+
+		.banner .ribbon{
+			width:50%;
+			font-size: 16px;
+			margin-bottom: 10%;
+		}
+
 	}
 }
