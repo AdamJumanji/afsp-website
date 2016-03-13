@@ -371,9 +371,6 @@ p {
 	/*MEDIA QUERY*/
 	@media only screen and (max-width : 1200px) {
 
-		nav{
-			margin-right: 10px;
-		}
 		nav ul{
 			display: none;
 		}
@@ -396,7 +393,7 @@ p {
 			display: inline-block;
 			background-color: #fff;
 			cursor: pointer;
-			padding: 7px 20px 4px 20px;
+			padding: 7px 15px 7px 20px;
 
 		}
 
@@ -469,7 +466,7 @@ p {
 		}
 	}
 
-	@media only screen and (max-width: 425px){
+	@media only screen and (max-width: 450px){
 		h2 {
 			color: #c50000;
 			margin-bottom: 3%;
