@@ -87,7 +87,7 @@ h2 {
 
 h3
 {	font-size:25px;
-	margin-bottom: 2%;
+	margin-bottom: 3%;
 	margin-top: 0;
 	margin-left: 0;
 
@@ -237,6 +237,13 @@ p {
 
 .flex-item p, .flex-item h3{
 	text-align: center;
+}
+
+.flex-item-img{
+	width: 80%;
+	margin:0 auto 0 auto;
+	display: block;
+	margin-bottom: 3%;
 }
 
 .contact h3{
@@ -474,7 +481,7 @@ iframe{
 
 
 	.banner h1{
-		font-size: 35px;
+		font-size: 40px;
 	}
 
 	.banner p{
@@ -496,16 +503,23 @@ iframe{
 		color: #c50000;
 		margin-bottom: 3%;
 		margin-top: 3%;
-		font-size:35px;
+		font-size:30px;
 		line-height: 1em;
 	}
 
 	h3
 	{	font-size:22.5px;
-		margin-bottom: 2%;
+		margin-bottom: 2.5%;
 
 	}
 
+	iframe{
+		display:none;
+	}
+
+	.flex-item-img{
+		margin-bottom: 2.5%;
+	}
 	.section-description{
 		margin-bottom: 4%;
 	}
@@ -514,11 +528,9 @@ iframe{
 		display:none;
 	}
 
-
 	.banner h1{
-		font-size: 25px;
+		font-size: 35px;
 	}
-
 	.banner p{
 		font-size: 18px;
 	}
@@ -529,9 +541,7 @@ iframe{
 		margin-bottom: 10%;
 	}
 
-	iframe{
-		display:none;
-	}
+	
 
 	.form{
 		max-width: 100%;
