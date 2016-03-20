@@ -1,11 +1,11 @@
 
 var smoothScrollingTargetElement = 'a[href*="#"]:not([href="#"])';
 var headerHeight = 100;
+var scrollSpeed = 300;
 var mobileNavClassChangeName = "movile-nav-change"
-var navigationListClassDisplayName = "display";
 var navigationList = "nav";
 
-
+// Smooth-scrolling that targets links with an anchor to the current page
 function enableSmoothScolling() {
   $(smoothScrollingTargetElement).click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -14,22 +14,19 @@ function enableSmoothScolling() {
       if (target.length) {
         $('html, body').animate({
           scrollTop: target.offset().top - headerHeight
-        }, 300);
+        }, scrollSpeed);
         return false;
       }
     }
   });
+
 };
 
-
+// Toggles mobile navbar animation css
 function toggleMobileNavbar(x) {
     x.classList.toggle(mobileNavClassChangeName);
-    toggleNavigationList();
+    $(navigationList).toggle();
 
-}
-
-function toggleNavigationList(){
-$(navigationList).toggle(navigationListClassDisplayName);
 }
 
 $(document).ready(function() {
