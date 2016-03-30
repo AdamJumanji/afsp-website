@@ -38,8 +38,22 @@ function closeMobileNavbar(){
   }
 }
 
+function enableMottoScrollToggle(){
+
+  var targetOffset = $("#ribbon").offset().top;
+
+var $w = $(window).scroll(function(){
+    if ( $w.scrollTop() > targetOffset && $(window).width() > 450 ) {   
+        $('#motto').css({'display':'inline-block'});
+    } else {
+        $('#motto').css({'display':'none'});
+    }
+});
+}
 
 $(document).ready(function() {
   enableSmoothScolling();
+  enableMottoScrollToggle();
+
 })
 
