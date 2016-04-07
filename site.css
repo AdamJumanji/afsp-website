@@ -78,7 +78,12 @@ nav ul li:hover a{
 	color: white;
 }
 
-
+.courses-header{margin-top: 100px;
+	margin-bottom: 10px;
+	padding-top: 30px;
+	font-size:40px;
+	line-height: 1em;
+}
 
 h2 {
 	color: #c50000;
@@ -101,7 +106,43 @@ p {
 	margin-bottom: 10px;
 
 }
+.course{
+	margin-top: 3.5%;
+}
+.courses-description{
+	margin-bottom: 4%;
 
+}
+.course h2{
+	font-size: 26px;
+	margin-bottom: 0;
+}
+
+.course p{
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.course img{
+	float: right;
+	margin-left: 5%;
+	width: 10%;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding:10px;
+	transition: .3s
+
+}
+
+.course img:hover{
+	background-color: #ff6363;
+	border: 2px solid #ff6363;
+}
+
+.arabic{
+	float: left;
+}
 
 .mobile-nav{
 	display: none;
@@ -192,15 +233,17 @@ p {
 	display: block;
 }
 
-
+.content-color{
+	background-color:#fff;
+	box-shadow: 0px 0px 5px #888888;
+}
 .content {
 	width: 70%; 
 	height: 100%; 
 	margin:auto;
 	padding-right: 5%;
 	padding-left: 5%;
-	background-color:#fff;
-	box-shadow: 0px 0px 5px #888888;
+	
 
 }
 .about-us-section{
@@ -407,6 +450,27 @@ iframe{
 	right: 0;
 	border-width: 1em 1em 0 0;
 }
+
+footer .flex-item{
+	 border: none;
+}
+
+footer .content{
+	background-color: transparent;
+}
+
+footer h4{
+	margin-bottom: 3%;
+}
+
+footer ul{
+	padding-left: 0;
+	margin: 0 0 0 0;
+}
+footer ul li{
+	list-style: none;
+}
+
 /*MEDIA QUERY*/
 @media only screen and (max-width : 1200px) {
 
@@ -538,7 +602,7 @@ iframe{
 		line-height: 1.5em;
 	}
 
-	h2 {
+	 {
 		color: #c50000;
 		margin-bottom: 3%;
 		margin-top: 3%;
@@ -555,7 +619,15 @@ iframe{
 	iframe{
 		display:none;
 	}
-	
+
+	.course h2{
+	margin-top: 20px;
+	}
+
+	.courses-header{
+		font-size: 34px;
+	}
+
 	.flex-item{
 		padding: 10px;
 	}
