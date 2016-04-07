@@ -78,12 +78,7 @@ nav ul li:hover a{
 	color: white;
 }
 
-.courses-header{margin-top: 100px;
-	margin-bottom: 10px;
-	padding-top: 30px;
-	font-size:40px;
-	line-height: 1em;
-}
+
 
 h2 {
 	color: #c50000;
@@ -106,8 +101,20 @@ p {
 	margin-bottom: 10px;
 
 }
+
+.courses-header{
+	margin-top: 100px;
+	margin-bottom: 0;
+	padding-top: 30px;
+	font-size:40px;
+	line-height: 1em;
+}
+
 .course{
-	margin-top: 3.5%;
+	margin-top: 1%;
+	padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom: 1px solid #c50000;
 }
 .courses-description{
 	margin-bottom: 4%;
@@ -138,6 +145,16 @@ p {
 .course img:hover{
 	background-color: #ff6363;
 	border: 2px solid #ff6363;
+}
+
+.content .reduce-bottom{
+	margin-bottom: 5%;
+}
+
+.register{
+	font-size: 23px;
+	margin-top: 5%;
+	text-align: center;
 }
 
 .arabic{
