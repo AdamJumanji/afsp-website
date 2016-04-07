@@ -40,15 +40,19 @@ function closeMobileNavbar(){
 
 function enableMottoScrollToggle(){
 
+if ($("#ribbon").offset()){
   var targetOffset = $("#ribbon").offset().top;
-
-var $w = $(window).scroll(function(){
+  var $w = $(window).scroll(function(){
     if ( $w.scrollTop() > targetOffset && $(window).width() > 450 ) {   
         $('#motto').css({'display':'inline-block'});
     } else {
         $('#motto').css({'display':'none'});
     }
 });
+}
+  else{
+    $('#motto').css({'display':'inline-block'});
+  }
 }
 
 $(document).ready(function() {
