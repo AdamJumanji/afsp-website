@@ -104,6 +104,10 @@ p {
 
 }
 
+.iso-header{
+	margin-top: 25px;
+	font-size: 30px;
+}
 .courses-header{
 	color: #2F2F2F;
 	margin-top: 100px;
@@ -111,7 +115,11 @@ p {
 	font-size:40px;
 	line-height: 1em;
 }
+.paragraph-header{
+	margin-bottom: 1%;
+	margin-top: 2%;
 
+}
 .course{
 	margin-top: 1%;
 	padding-bottom: 20px;
@@ -122,9 +130,11 @@ p {
 	margin-top: 10px;
 
 }
-.course h2{
+.course h2, .course h3{
 	font-size: 26px;
 	margin-bottom: 0;
+		color: #c50000;
+
 }
 
 .course p{
@@ -161,7 +171,11 @@ p {
 }
 
 .list{
-	margin-top: 0;
+	    list-style-type: none;
+}
+
+.list li{
+	font-style: italic;
 }
 
 .arabic{
