@@ -40,20 +40,18 @@ function closeMobileNavbar(){
 
 function enableMottoScrollToggle(){
 
-if ($("#ribbon").offset()){
+if ( ($(window).width() > 350) && $("#ribbon").offset()) {
   var targetOffset = $("#ribbon").offset().top;
   var $w = $(window).scroll(function(){
-    if ( $w.scrollTop() > targetOffset && $(window).width() > 450 ) {   
+    if ( $w.scrollTop() > targetOffset) { 
         $('#motto').css({'display':'inline-block'});
     } else {
         $('#motto').css({'display':'none'});
     }
 });
 }
-  else{
-    $('#motto').css({'display':'inline-block'});
-  }
 }
+
 
 $(document).ready(function() {
   enableSmoothScolling();
