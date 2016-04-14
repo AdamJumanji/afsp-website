@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>AFSP | Consultant Team</title>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:500,700,400italic' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type="text/javascript" src="..\script\site.js"></script>
+	<link rel="stylesheet" type="text/css" href="..\style\site.css">
+	<meta name="viewport" http-equiv="Content-Type" charset="UTF-8" content="width=device-width, initial-scale=1, maximum-scale=1"></head>
+<body>
+	<header>
+		<div class="header-items">
+			<a href="..\index.html">
+				<img src="..\assets\img\AFSP.png" class="logo" alt="Almaas Food Safety Plus logo"></a>
+			<div class="motto" id="motto">All-you-can-learn to feed the mind</div>
+			<div id="mobileNav" class="mobile-nav" onclick="toggleMobileNavbar()">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<nav>
+				<div>
+
+					<ul>
+						<li>
+							<a href="..\index.html#about-us">About Us</a>
+						</li>
+						<li>
+							<a href="..\index.html#food-safety">Food Safety</a>
+						</li>
+						<li>
+							<a href="..\index.html#consulting-services">Consulting Services</a>
+						</li>
+						<li>
+							<a href="..\index.html#contact-us">Contact Us</a>
+						</li>
+					</ul>
+
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<div class="content content-color">
+		<h1 class="courses-header">Consultant Team</h1>
+		<section class="reduce-bottom">
+			<p class="opening-paragraph">
+				ALMAAS consultants team is a group of diversely trained food industry professionals specializing in many disciplines of the food industry headed by Mr. Hussein EL-Masri President and C.E.O. We have within our team in excess of 100 years of international track record in food service, food processing and operational management. 
+			</p>
+
+			<div class="course">
+				<h2>Hussein El-Masri</h2>
+				<p>
+					<a href="..\assets\pdf\BASICS.pdf" target="_blank">
+						<img alt="Course details for basics.fst" src="..\assets\img\pdf.png"></a>
+<p>	Hussein El-Masri is the President and Chief Executive Officer (CEO) of ALMAAS Food Safety Plus, a leading food safety cconsulting company operating out of Ontario, Canada with extensive operations in the Middle East and North Africa (MENA).</p>
+<p>	Hussein has been in the food industry since 1972 and has a wealth of international experience in hospitality, food processing, food service operations and food safety management systems. He is a certified national food safety trainer and registered proctor licensed to facilitate both online and in-class, TrainCan, Inc.’s food safety courses: ADVANCED.fst® and BASICS.fst®. Hussein is a trusted professional that has provided expert consultation services to owners, board members and senior management of food service and food processing companies in North America and MENA.</p>
+<p>	Prior to running his consulting and training business, Mr. El-Masri was the Vice-President of Operations of Victory’s Kitchen Ltd, an internationally recognized private label food manufacturer in Toronto, Ontario. He worked as Director of Catering Operations, Safat Catering Services Co. and Director of Food & Beverage Royal Suites, Bayan Palace, in Kuwait.  Mr. El-Masri’s experience also includes: a General Manager Position with leading international British hospitality and catering company Taylorplan Overseas Ltd in Kuwait; District Manager of Hospital Catering Services at Poon Group of Companies in Kuwait; and Catering Manager at Oman Catering Company (A.A) Sultanate of Oman.</p>
+<p>Hussein holds a diploma in Business Management from Jersey, England and a diploma in Hotel and Restaurant Management from Toronto, Canada. He had previously earned professional credentials in the food industry by completing the following courses offered by the HotelConsult Institut Hôtelier César Ritz in Switzerland: Menu Analysis and Planning; Food and Beverage Marketing and Merchandising; and Creative Food and Beverage Control. To further develop his in-depth knowledge of food safety management, regulations and legislation he went on to successfully complete five intensive courses in HACCP at The Guelph Food Technology Centre (GFTC) in Guelph, Ontario. His H.R management  training includes courses in: strategy development, hiring, retention, supervisory skills, effective training,  motivation and conflict resolution.	</p>
+
+			</div>
+
+			<div class="course">
+				<h2>ADVANCED.fst</h2>
+				<p>
+					<a href="..\assets\pdf\ADVANCED.pdf" target="_blank">
+						<img alt="Course details for advanced.fst" src="..\assets\img\pdf.png"></a>
+						This comprehensive course covers crucial aspects of food safety and hygiene practices required for safe food handling and minimized risk. Designed for <i>experienced independent operators and managers in the food industry with little or no experience </i> in quality management and food safety.
+				</p>
+
+			</div>
+
+			<div dir='rtl' lang='ar' class="course" >
+				<h2>برنامج الدورة التدريبية</h2>
+				<p >
+					<a href="..\assets\pdf\ARABIC_BASICS.pdf" target="_blank">
+						<img style="float: left; margin-right: 4%; margin-left: 0;" alt="Course details for advanced.fst" src="..\assets\img\pdf.png"></a>
+					ترتكز هذه الدورة التدريبية عن السلامة الغذائية المستوى التأسيسي على القوانين والمعايير الكندية الخاصة بالخدمات الغذائية. تم تصميمها خصيصاً للمتداولون بالطعام ذو خبرة محدودة أو بدون خبرة في مجال الصناعة الغذائية. يمنح هذا التدريب مقدمة مفصلة عن حسن التداول بالطعام وحسن ممارسة عمليات التنظيف. 
+				</p>
+
+			</div>
+		<div class="course centre">
+				<h2>Class Schedule</h2>
+
+				<p>See our calendar below to find the next in-class training sessions.</p>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92102.71246192484!2d-79.59031856792399!3d43.83074838690451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b268883243a77%3A0xdd95317585aa054b!2sVaughan%2C+ON!5e0!3m2!1sen!2sca!4v1457381207992" width="100%" style="border:0" allowfullscreen></iframe>
+		</div>
+			
+					<p class="register"> <a href="..\index.html#contact-us">Contact us</a> to register for in-class courses!</p>
+
+		</section>
+
+
+
+	</div>
+	<footer class="content">
+		<div class="flex-container">
+			<div class="flex-item">
+				<h4>Home Page</h4>
+				<ul>
+					<li>About Us</li>
+					<li>Food Safety</li>
+					<li>Consulting Services</li>
+					<li>Contact Us</li>
+				</ul>
+			</div>
+			<div class="flex-item">
+				<h4>Food Safety</h4>
+				<ul>
+					<li>Online Courses</li>
+					<li>In-class Courses</li>
+				</ul>
+			</div>
+			<div class="flex-item">
+				<h4>Consulting Services</h4>
+				<ul>
+					<li>Food Plant Design & Building</li>
+					<li>Food Safety & Quality Management</li>
+					<li>Product Development</li>
+				</ul>
+			</div>
+
+		</div>
+		<p class="centre">&copy; 2016 Almaas Food Safety Plus. All Rights Reserved.</p>
+	</footer>
+</body>
+</html>
