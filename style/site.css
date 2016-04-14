@@ -306,7 +306,7 @@ p {
 }
 
 .about-us-section h3{
-	margin-bottom: 1%;
+	margin-bottom: .5%;
 }
 .section-description{
 	margin-bottom:2%;
@@ -700,9 +700,9 @@ footer ul li{
 	{	font-size:22.5px;
 	
 	}
+	.contact h3, .contact ul{
+		margin-left: 0;
 
-	iframe{
-		display:none;
 	}
 
 	.course h2{
