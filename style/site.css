@@ -10,6 +10,28 @@ body {
 	color: #555;
 }
 
+.site-development {
+	margin: auto;
+	width: 75%;
+	background: #ff6363;
+	color: white;
+	font-size: 20px;
+	font-style: normal;
+	text-align: center;
+	padding: 10px;
+	border: 2px dashed black;
+	margin-bottom: 2.5%;
+	border-radius: 5px
+
+}
+
+.calendar{
+	height:600px;
+	width: 100%
+
+}
+
+
 a {
 	color: #ff3939;
 	text-decoration: none;
@@ -667,6 +689,10 @@ footer ul li{
 		margin-bottom: 3%;
 
 	}
+	.calendar{
+	margin-top: 10px;
+	height:350px;
+}
 	.motto{
 		font-size: 14.5px;
 	}

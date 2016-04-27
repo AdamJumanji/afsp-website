@@ -5,6 +5,7 @@ var scrollSpeed = 300;
 var mobileNavId = "#mobileNav";
 var activeMobileMenuClassName = "movile-nav-change"
 var navigationList = "nav";
+var userAlerted = false;
 
 // Smooth-scrolling that targets links with an anchor to the current page
 function enableSmoothScolling() {
@@ -55,7 +56,7 @@ if ( ($(window).width() > 350) && $("#ribbon").offset()) {
 
 $(document).ready(function() {
   enableSmoothScolling();
-  enableMottoScrollToggle();
+  enableMottoScrollToggle();  
 
 })
 
