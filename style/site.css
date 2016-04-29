@@ -300,13 +300,13 @@ p {
 	margin-bottom:5%;
 	width: 100%; 
 	height: 100%;
-	margin-top: 130px;
+	margin-top: 110px;
 }
 .banner img{
 	width: 30%;
 	margin:0 auto 0 auto;
 	display: block;
-	margin-bottom: 2.5%;
+	margin-bottom: 2%;
 }
 
 .banner h1{
@@ -315,7 +315,7 @@ p {
 	color: #2F2F2F;
 	font-size: 60px;
 	text-align: center;
-	margin-bottom:2.5%;
+	margin-bottom:2%;
 }
 
 .banner p{
@@ -326,7 +326,7 @@ p {
 	width: 85%;
 	margin:auto;
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 0;
 
 
 }
@@ -401,6 +401,8 @@ p {
 
 .consultant{
 	text-align: center;
+	background-color: #f7f7f5;
+	
 }
 
 .consultant-img{
@@ -521,6 +523,25 @@ iframe{
 	border-bottom: 2px dashed #ff6363;
 }
 
+.affiliated{
+	margin-top: 0;
+	text-align: center;
+	
+}
+
+.affiliated img{
+	vertical-align: middle;
+	display:inline-block;
+	width: 10%;
+	margin-right: 6%;
+	margin-left: 6%;
+	opacity: .6;
+	border: solid 1px grey;
+	border-radius: 5px;
+	box-shadow: 0px 1px 10px #888888;
+
+
+}
 .social-media{
 	margin-top: 7%;
 	text-align: center;
@@ -558,7 +579,7 @@ iframe{
 	color: #fff;
 	text-align: center;
 	padding: 1em 2em; /* Adjust to suit */
-	margin: 0em auto 2em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+	margin: 0em auto 20px; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
 }
 .ribbon:before, .ribbon:after {
 	content: "";
@@ -717,6 +738,14 @@ footer ul li{
 		margin-bottom: 3%;
 
 	}
+
+	.affiliated img{
+	
+	width: 20%;
+	margin-right: 5%;
+	margin-left: 5%;
+
+}
 	.calendar{
 	margin-top: 10px;
 	height:350px;
