@@ -739,6 +739,7 @@ footer ul li{
 
 	}
 
+
 	.affiliated img{
 	
 	width: 30%;
@@ -770,6 +771,9 @@ footer ul li{
 	.banner p{
 		font-size: 25px;
 	}
+		.banner img{
+			width: 55%;
+		}
 
 	.form{
 		max-width: 75%;
