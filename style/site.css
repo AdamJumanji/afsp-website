@@ -363,6 +363,10 @@ p {
 .section-description{
 	margin-bottom:2%;
 }
+
+.default-img{
+		width: 61% !important;
+	}
 .content section { 
 	margin-bottom:7.5%;
 	padding-bottom: 7.5%;
@@ -826,9 +830,7 @@ footer ul li{
 		font-size: 34px;
 	}
 	
-	.default-img{
-		width: 61%;
-	}
+	
 	.flex-item{
 		padding: 10px;
 		margin-bottom: 5%;
