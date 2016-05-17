@@ -41,7 +41,7 @@ function closeMobileNavbar(){
 
 function enableMottoScrollToggle(){
 
-if ( ($(window).width() > 350) && $("#ribbon").offset()) {
+if ( ($(window).width() > 425) && $("#ribbon").offset()) {
   var targetOffset = $("#ribbon").offset().top;
   var $w = $(window).scroll(function(){
     if ( $w.scrollTop() > targetOffset) { 
