@@ -191,7 +191,12 @@ p {
 	margin-top: 1%;
 	padding-bottom: 20px;
     padding-top: 10px;
-    border-bottom: 1px solid #c50000;
+	border-bottom: 1px solid #c50000;
+	
+}
+
+.course:last-child{
+	border-bottom: none;
 }
 .opening-paragraph{
 	margin-top: 10px;
@@ -393,6 +398,10 @@ p {
 .border-solid section{
 	border-bottom: 2px solid #c50000; 
 
+}
+
+.border-solid section:last-child{
+	border-bottom: none;
 }
 
 .raised .flex-item{
